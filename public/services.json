@@ -1,0 +1,63 @@
+[
+    {
+      "_id": 1,
+      "img": "https://i.ibb.co/hVqxHQq/shop-img-1.jpg",
+      "name": "Electric Drill",
+      "description":"Power Tools, Home, Service, Technology",
+      "quantity": 100,
+      "available":10000,
+      "price":111
+      
+    },
+    {
+      "_id": 2,
+      "img": "https://i.ibb.co/LRWfHgQ/shop-img-3-635x755.jpg",
+      "name": "Power Saw",
+      "description":"Power Tools, Home, Service, Technology",
+      "quantity": 50,
+      "available":3000,
+      "price":250
+      
+    },
+    {
+      "_id": 3,
+      "img": "https://i.ibb.co/FKc0PFb/shop-img-10-635x755.jpg",
+      "name": "Concrete Mixer",
+      "description":"Power Tools, Outdoor, Service, Technology",
+      "quantity": 20,
+      "available":700,
+      "price":5000
+      
+    },
+    {
+      "_id": 4,
+      "img": "https://i.ibb.co/Tt66JC7/shop-img-4-635x755.jpg",
+      "name": "Digital Multimeter",
+      "description":"Power Tools, Home, Service, Technology",
+      "quantity": 50,
+      "available":400,
+      "price":350
+      
+    },
+    {
+      "_id": 5,
+      "img": "https://i.ibb.co/x5MxwDY/shop-img-16-635x755.jpg",
+      "name": "Diesel Generator",
+      "description":"Power Tools, Outdoor, Technology",
+      "quantity": 5,
+      "available":70,
+      "price":2500
+      
+    },
+    {
+      "_id": 6,
+      "img": "https://i.ibb.co/x5MxwDY/shop-img-16-635x755.jpg",
+      "name": "Screwdriver Pallet",
+      "description":"Power Tools, Outdoor, Safety, Service",
+      "quantity": 50,
+      "available":2000,
+      "price":110
+      
+    }
+    
+  ]
