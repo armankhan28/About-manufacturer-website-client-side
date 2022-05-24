@@ -9,6 +9,7 @@ import SignUp from './Pages/Login/SignUp';
 import MyPortfolio from './Pages/MyPortfolio/MyPortfolio';
 import Purchase from './Pages/Purchase/Purchase';
 import Navbar from './Pages/Shared/Navbar';
+import NotFound from './Pages/Shared/NotFound';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/purchase' element={
           <RequireAuth><Purchase></Purchase></RequireAuth>
         }></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );
