@@ -8,7 +8,7 @@ const Footer = () => {
           background: `url(${footer})`,
           backgroundSize: 'cover',
         }}
-        className="footer p-10 bg-base-200 text-base-content text-white"
+        className="footer p-10 bg-base-200  text-white"
       >
         <div>
           <span className="footer-title">Services</span>
