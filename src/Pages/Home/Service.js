@@ -18,7 +18,7 @@ const Service = ({ service }) => {
         <h3 className='text-xl'>Per unit Price: ${price}</h3>
         <h3>{description}</h3>
         <div className="card-actions justify-end">
-          <Link to="/purchase"><button className="btn btn-primary">Purchase</button></Link>
+          <Link to="/purchase"><button  className="btn btn-primary">Purchase</button></Link>
         </div>
       </div>
     </div>
