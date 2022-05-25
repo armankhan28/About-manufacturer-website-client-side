@@ -1,19 +1,35 @@
 import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
+import { toast } from 'react-toastify';
 import auth from '../../firebase.init';
 
-const Purchase = () => {
+const Purchase = () => { 
   const [user, loading, error] = useAuthState(auth);
 
   const handleBooking = event => {
     event.preventDefault();
 
     const booking = {
-        email: user.email,
+        client: user.email,
         Name: user.displayName,
         phone: event.target.phone.value,
       };
+
+      fetch('http://localhost:5000/booking',{
+          method: 'POST',
+          headers:{
+            'content-type': 'application/json'
+          },
+          body: JSON.stringify(booking)
+      })
+      .then(res => res.json())
+      .then(data => {
+          if(data){
+              toast('Purchase Done')
+          }
+      })
   }
+
 
   return (
     <div className="grid grid-cols-1 gap-4 justify-items-center mt-10 ">

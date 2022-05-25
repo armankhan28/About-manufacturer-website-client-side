@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Purchase from '../Purchase/Purchase';
 import Service from './Service';
 
 const Tools = () => {
   const [services, setServices] = useState([]);
-
   useEffect(() => {
     fetch('http://localhost:5000/service')
       .then(res => res.json())

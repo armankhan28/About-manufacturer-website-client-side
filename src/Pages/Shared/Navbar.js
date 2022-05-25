@@ -10,6 +10,7 @@ const Navbar = () => {
     const logout = () => {
         signOut(auth);
      };
+    
 
     const menuItems = <>
         <li><Link to="/">Home</Link></li>
@@ -36,6 +37,9 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal p-0">
                     {menuItems}
                 </ul>
+            </div>
+            <div className='navbar-end'>
+            <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open Dashboard</label>
             </div>
         </div>
     );
